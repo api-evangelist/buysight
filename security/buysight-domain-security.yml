@@ -1,0 +1,62 @@
+generated: '2026-07-20'
+method: probed
+source: dig + openssl s_client + curl against buysight.com (2026-07-20)
+note: >-
+  Buysight was acquired by AOL's Advertising.com Group on 2012-12-04 and no longer
+  operates. The buysight.com domain is registered through MarkMonitor (corporate
+  brand-protection registrar) and serves no live service. HTTPS does not answer;
+  plain HTTP redirects to the registrar placeholder at comingsoon.markmonitor.com.
+  Absence of records below is real probed data, not a gap in the probe.
+hosts:
+- host: buysight.com
+  https: false
+  https_error: connection timed out (port 443 unreachable)
+  http_status: 200
+  http_final_url: http://comingsoon.markmonitor.com/
+  tls_version: null
+  hsts: false
+  a_records:
+  - 3.33.139.32
+- host: www.buysight.com
+  https: false
+  https_error: connection timed out (port 443 unreachable)
+  hsts: false
+domains:
+- domain: buysight.com
+  dnssec: false
+  caa: []
+  spf: false
+  dmarc: false
+  dmarc_policy: null
+  mx: []
+  nameservers:
+  - ns1.markmonitor.com
+  - ns2.markmonitor.com
+  - ns3.markmonitor.com
+  - ns4.markmonitor.com
+  - ns5.markmonitor.com
+  - ns6.markmonitor.com
+  - ns7.markmonitor.com
+well_known:
+- path: /.well-known/security.txt
+  status: null
+  result: unreachable (no HTTPS listener)
+- path: /.well-known/openid-configuration
+  status: null
+  result: unreachable (no HTTPS listener)
+- path: /.well-known/api-catalog
+  status: null
+  result: unreachable (no HTTPS listener)
+registries_checked:
+- registry: github-org
+  url: https://github.com/buysight
+  status: 404
+- registry: npm
+  query: buysight
+  result: no packages
+- registry: pypi
+  url: https://pypi.org/pypi/buysight/json
+  status: 404
+archived:
+  wayback_latest: http://web.archive.org/web/20121126034725/http://www.buysight.com:80/
+  wayback_timestamp: '20121126034725'
