@@ -23,19 +23,17 @@ accessModel:
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/buysight.png
 name: Buysight
-description: 'Buysight, Inc. was a Silicon Valley advertising technology startup founded
-  in 2008 that built intent-based audience targeting, retargeting, and Dynamic Creative
-  Optimization (DCO) for display advertising, using machine learning to select both
-  the audience for an impression and the creative shown to that user. The company raised
-  approximately $16 million from ONSET Ventures, Rembrandt Venture Partners, Uncork
-  Capital (SoftTech VC / Jeff Clavier), Reid Hoffman, and AOL. On December 4, 2012
-  Buysight was acquired by AOL''s Advertising.com Group, with the entire team joining
-  AOL and the DCO and machine-learning technology folded into AOL''s AdLearn optimization
-  engine alongside Advertising.com, ADTECH, the AOL On Network, goviral, and Pictela.
-  Buysight no longer operates as an independent company and publishes no developer
-  program, API, documentation, or SDKs. The buysight.com domain is held by MarkMonitor
-  and redirects to a registrar placeholder page. This profile is retained as a historical
-  acquisition record in the API Evangelist network.'
+description: Buysight, Inc. was a Silicon Valley advertising technology startup founded in 2008 that built
+  intent-based audience targeting, retargeting, and Dynamic Creative Optimization (DCO) for display advertising,
+  using machine learning to select both the audience for an impression and the creative shown to that
+  user. The company raised approximately $16 million from ONSET Ventures, Rembrandt Venture Partners,
+  Uncork Capital (SoftTech VC / Jeff Clavier), Reid Hoffman, and AOL. On December 4, 2012 Buysight was
+  acquired by AOL's Advertising.com Group, with the entire team joining AOL and the DCO and machine-learning
+  technology folded into AOL's AdLearn optimization engine alongside Advertising.com, ADTECH, the AOL
+  On Network, goviral, and Pictela. Buysight no longer operates as an independent company and publishes
+  no developer program, API, documentation, or SDKs. The buysight.com domain is held by MarkMonitor and
+  redirects to a registrar placeholder page. This profile is retained as a historical acquisition record
+  in the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/buysight/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -43,7 +41,7 @@ x-backed-by:
 - uncork-capital
 x-tier: stub
 x-tier-reason: defunct-acquired-no-api-surface
-x-status: acquired
+x-status: defunct
 x-acquired-by: AOL (Advertising.com Group)
 x-acquired-date: '2012-12-04'
 x-operating: false
@@ -58,7 +56,7 @@ x-references:
   url: https://www.crunchbase.com/organization/buysight
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-20'
+modified: '2026-09-15'
 tags:
 - Company
 - Advertising
