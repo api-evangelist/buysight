@@ -60,13 +60,12 @@ modified: '2026-09-15'
 tags:
 - Company
 - Advertising
-- Advertising Technology
 - AdTech
 - Retargeting
 - Audience Targeting
 - Dynamic Creative Optimization
 - Marketing
-- Machine-Learning
+- Machine Learning
 - Acquired
 - Defunct
 tags_raw:
@@ -81,6 +80,7 @@ tags_raw:
 - Machine Learning
 - Acquired
 - Defunct
+- Machine-Learning
 apis: []
 common:
 - type: DomainSecurity
